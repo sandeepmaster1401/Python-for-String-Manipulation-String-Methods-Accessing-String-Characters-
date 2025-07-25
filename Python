@@ -1,0 +1,33 @@
+first_name="sandeep"
+last_name="master"
+full_name=first_name+" "+last_name
+print(full_name)
+message="this is a warning!"
+
+print(message*5)
+print(message.upper())
+print(message.lower())
+print(message.strip()*2)
+print(message.replace("warning","error"))
+
+name='''sandeep said"hello"
+   abhi said "hi"
+   '''
+
+print(name)
+print(len(message))
+ #lenght
+
+name = "Sandeep"
+print(name[4])#
+print(name[2:6])
+print(name[:7])
+
+print(name[-4])
+print(name[::3])
+
+s="sandeep \n is a good boy"
+print(s)
+
+s="sandeep \tis a good boy"
+print(s)
